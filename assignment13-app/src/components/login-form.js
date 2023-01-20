@@ -9,9 +9,9 @@ export default class LoginForm extends React.Component {
                 <h3>Log In Here!</h3>
                 </div>
             <form>
-        <label htmlFor="username">Username</label>
+        <label htmlFor="username">Username:</label>
         <input type="username" placeholder="Enter your username" id="username" name="username"/>
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password">Password:</label>
         <input type="password" placeholder="Enter your password" id="password" name="password"/>
         <LoginButton/>
             </form>
